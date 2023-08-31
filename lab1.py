@@ -1,7 +1,10 @@
 from sympy import *
 import numpy as np
 import math as math
-
+#to get numpy and sympy working in your IDE:
+#Inside your terminal using BASH:
+#pip install numpy
+#pip install sympy
 def part1A():
     top= 4*(log(1.29,10)+log(11.1,math.e))
     bottom = 2027 - 12**3
